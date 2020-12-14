@@ -46,4 +46,4 @@ CORPUS_ROOT_PATH = os.path.join(root_path,'corpus')
 # bert模型目录
 # BERT_DIR = 'E:/lwf_work/beikaizw/data_pro/re_ext_bert/model/'
 BERT_DIR = '/home/hemei/ap/nas/kg/model/word_embedding/bert/'
-NER_MODEL_DIR = root_path + '/models/ner/'
+MODEL_DIR = root_path + '/models/'

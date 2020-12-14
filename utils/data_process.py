@@ -219,14 +219,13 @@ class NamedEntityRecognizer(ViterbiDecoder):
         batch_segment_ids = sequence_padding(batch_segment_ids)
         nodes = self.model.predict([batch_token_ids, batch_segment_ids])
         for index, node in enumerate(nodes):
-            pre_dict = []
             labels = self.decode(node)
             arguments, starting = [], False
             for i, label in enumerate(labels):
                 if label > 0:
                     if label % 2 == 1:
                         starting = True
-                        arguments.append([[i], self.id2label[(label - 1) // 2]])
+                        arguments.append([[i], self.id2label[str((label - 1) // 2)]])
                     elif starting:
                         arguments[-1][0].append(i)
                     else:

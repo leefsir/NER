@@ -1,0 +1,60 @@
+[2020-12-11 18:25:24,331] [116579] [INFO] - ner_handler.data_process (ner_handler.py:55) - data process done
+[2020-12-11 18:25:32,323] [116579] [INFO] - ner_handler.build_model (ner_handler.py:40) - build model done
+[2020-12-11 18:25:32,521] [116579] [INFO] - ner_handler.compile_model (ner_handler.py:68) - compile model done
+[2020-12-11 18:25:32,881] [116579] [INFO] - ner_handler.__init__ (ner_handler.py:26) - init ner_handler done
+[2020-12-11 22:33:53,063] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 学校:  f1: 0.79026, precision: 0.71576, recall: 0.88206   total: 1249
+
+[2020-12-11 22:33:53,063] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - Text:  f1: 0.88894, precision: 0.86207, recall: 0.91753   total: 2125
+
+[2020-12-11 22:33:53,063] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 行政区:  f1: 0.87907, precision: 0.88318, recall: 0.87500   total: 189
+
+[2020-12-11 22:33:53,063] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 出版社:  f1: 0.82291, precision: 0.78858, recall: 0.86036   total: 1947
+
+[2020-12-11 22:33:53,063] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - Date:  f1: 0.79809, precision: 0.77442, recall: 0.82325   total: 3591
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 企业:  f1: 0.70401, precision: 0.67576, recall: 0.73472   total: 1659
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 歌曲:  f1: 0.91049, precision: 0.90398, recall: 0.91709   total: 2909
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 气候:  f1: 0.80198, precision: 0.80198, recall: 0.80198   total: 81
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 图书作品:  f1: 0.82028, precision: 0.80686, recall: 0.83416   total: 2022
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 网络小说:  f1: 0.93202, precision: 0.88527, recall: 0.98399   total: 1659
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 历史人物:  f1: 0.76788, precision: 0.76685, recall: 0.76892   total: 569
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 网站:  f1: 0.95033, precision: 0.91193, recall: 0.99212   total: 1636
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 城市:  f1: 0.80165, precision: 0.81513, recall: 0.78862   total: 97
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 影视作品:  f1: 0.88771, precision: 0.87464, recall: 0.90117   total: 4249
+
+[2020-12-11 22:33:53,064] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 书籍:  f1: 0.64022, precision: 0.69608, recall: 0.59265   total: 355
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 作品:  f1: 0.55556, precision: 0.78947, recall: 0.42857   total: 15
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - Number:  f1: 0.85734, precision: 0.81842, recall: 0.90015   total: 613
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 国家:  f1: 0.73267, precision: 0.64296, recall: 0.85146   total: 1284
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 生物:  f1: 0.84548, precision: 0.84481, recall: 0.84615   total: 1067
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 地点:  f1: 0.70160, precision: 0.63616, recall: 0.78205   total: 1995
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 电视综艺:  f1: 0.82072, precision: 0.78626, recall: 0.85833   total: 206
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 音乐专辑:  f1: 0.87539, precision: 0.84403, recall: 0.90916   total: 1131
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 人物:  f1: 0.89976, precision: 0.85241, recall: 0.95267   total: 25240
+
+[2020-12-11 22:33:53,065] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 景点:  f1: 0.71698, precision: 0.69512, recall: 0.74026   total: 57
+
+[2020-12-11 22:33:53,066] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 语言:  f1: 0.82353, precision: 0.73684, recall: 0.93333   total: 14
+
+[2020-12-11 22:33:53,066] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 目:  f1: 0.99314, precision: 0.99023, recall: 0.99607   total: 1014
+
+[2020-12-11 22:33:53,066] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 学科专业:  f1: 0.28571, precision: 0.50000, recall: 0.20000   total: 1
+
+[2020-12-11 22:33:53,066] [116579] [INFO] - data_process.test_evaluate (data_process.py:129) - 机构:  f1: 0.56019, precision: 0.55538, recall: 0.56508   total: 356
+
